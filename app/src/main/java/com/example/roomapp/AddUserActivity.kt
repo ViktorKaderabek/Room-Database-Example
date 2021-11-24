@@ -27,9 +27,6 @@ class AddUserActivity : AppCompatActivity()
 	mainViewModle = ViewModelProvider(this,
 				    defaultViewModelProviderFactory).get(UsersViewModel::class.java)
 	
-	val intent =
-	     Intent(this,
-		  MainActivity::class.java)
 	
 	binding.imbtnBack.setOnClickListener {
 	     setResult(0)
